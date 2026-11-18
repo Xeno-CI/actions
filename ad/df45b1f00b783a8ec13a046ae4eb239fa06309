@@ -1,0 +1,26 @@
+README.md
+  h_e90f0321dd544b 1-12
+checkout/README.md
+  h_e90f0321dd544b 6
+docker-builder/README.md
+  h_e90f0321dd544b 10
+stickydisk-delete/README.md
+  h_e90f0321dd544b 13,16,28
+stickydisk-delete/action.yml
+  h_e90f0321dd544b 13
+stickydisk-delete/index.mjs
+  h_e90f0321dd544b 1
+stickydisk/README.md
+  h_e90f0321dd544b 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "addf45b1f00b783a8ec13a046ae4eb239fa06309",
+  "prompts": {},
+  "humans": {
+    "h_e90f0321dd544b": {
+      "author": "001005HS <99410048+001005HS@users.noreply.github.com>"
+    }
+  }
+}
