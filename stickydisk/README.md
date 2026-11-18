@@ -8,7 +8,7 @@ jobs:
     runs-on: xenoci-macos
     steps:
       - uses: actions/checkout@v4
-      - uses: Xeno-CI/build/stickydisk@v1.7.13
+      - uses: Xeno-CI/actions/stickydisk@<commit sha>
         with:
           key: derived-data
           path: ~/Library/Developer/Xcode/DerivedData

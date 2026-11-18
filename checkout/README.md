@@ -3,7 +3,7 @@
 `actions/checkout@v4` with a cached Git mirror on XenoCI macOS and Linux runners.
 
 ```yaml
-- uses: Xeno-CI/build/checkout@<commit sha>
+- uses: Xeno-CI/actions/checkout@<commit sha>
   with:
     fetch-depth: 0   # every actions/checkout@v4 input works the same way
 ```

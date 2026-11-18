@@ -7,7 +7,7 @@ organization between jobs. Replace `docker/setup-buildx-action` with it and keep
 runs-on: xenoci-2vcpu-ubuntu-2404
 steps:
   - uses: actions/checkout@v4
-  - uses: Xeno-CI/build/docker-builder@<commit sha>   # was: docker/setup-buildx-action
+  - uses: Xeno-CI/actions/docker-builder@<commit sha>   # was: docker/setup-buildx-action
     with:
       cache-key: Dockerfile
   - uses: docker/build-push-action@v6

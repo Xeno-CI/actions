@@ -1,4 +1,4 @@
-// XenoCI sticky disk delete action. One file, node built-ins only, so the folder works as published (Xeno-CI/build/stickydisk-delete).
+// XenoCI sticky disk delete action. One file, node built-ins only, so the folder works as published (Xeno-CI/actions/stickydisk-delete).
 // Deletes through the existing API key routes: GET /stickydisks?repo= then DELETE /stickydisks/:id?revision= per disk (the server
 // checks the key's organization and permission, meters storage up to the delete and writes an audit row).
 import fs from 'node:fs';

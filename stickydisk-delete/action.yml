@@ -10,7 +10,7 @@ inputs:
     required: false
     default: ''
   delete-docker-cache:
-    description: "true deletes this repository's Docker builder cache disks (Xeno-CI/build/docker-builder)"
+    description: "true deletes this repository's Docker builder cache disks (Xeno-CI/actions/docker-builder)"
     required: false
     default: 'false'
   api-key:

@@ -10,10 +10,10 @@ jobs:
   reset-cache:
     runs-on: ubuntu-latest   # any runner; the action only calls the XenoCI API
     steps:
-      - uses: Xeno-CI/build/stickydisk-delete@main
+      - uses: Xeno-CI/actions/stickydisk-delete@main
         with:
           delete-key: dependencies          # exact key, every architecture
-          # delete-docker-cache: true       # this repository's Xeno-CI/build/docker-builder cache
+          # delete-docker-cache: true       # this repository's Xeno-CI/actions/docker-builder cache
           api-key: ${{ secrets.XENOCI_API_KEY }}
 ```
 
@@ -25,5 +25,5 @@ jobs:
 - Same API as `xenoci stickydisk delete --repo owner/name --key KEY --yes`.
 
 `scripts/build-stickydisk-delete-action.sh <out>` copies the folder for
-publishing to Xeno-CI/build/stickydisk-delete (no bundling needed: node
+publishing to Xeno-CI/actions/stickydisk-delete (no bundling needed: node
 built-ins only).
