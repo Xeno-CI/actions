@@ -4,3 +4,4 @@ for f in $(ls *.txt); do
   cat $f | grep -v "#" > /tmp/out
 done
 rm -rf $DIR/
+echo done > $OUT
